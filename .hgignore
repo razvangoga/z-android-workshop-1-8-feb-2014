@@ -1,0 +1,19 @@
+syntax: glob
+
+#-- Files
+*.bak.*
+*.bak
+[Tt]humbs.db
+
+#-- Directories
+App_Data/*
+bin/
+obj/
+tmp/
+dist/
+build/
+
+#-- Microsoft Visual Studio specific
+*.user
+*.suo
+sources\nb_project\nbproject\private\private.xml
